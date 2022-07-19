@@ -31,8 +31,7 @@ public class Access_Modifiers {
 		Public_A_Specifier obj2=new Public_A_Specifier();
 		obj2.display2();
 		
-		
-
+	
 	}
 
 }
