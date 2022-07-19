@@ -2,22 +2,23 @@
 2.2.2 Executing the program and verifying constructors
 2.2.3 Pushing the code to your GitHub repositories*/
 
-// default constructor
-class sample{
-	int a;
-	float b;
-}
-
-		
-public class Constructors {
-
-	public static void main(String[] args) {
-		sample obj= new sample();
-		
-		System.out.println("Default Constructor");
-		System.out.println("a="+obj.a);
-		System.out.println("b="+obj.b);	
-		
-	}
-		
-	}
+public class Constructors{  
+    int id;  
+    String name;  
+    
+    Constructors(int i,String n){  // parameterized constructor
+    id = i;  
+    name = n;  
+    }  
+    
+    void display(){System.out.println(id+" "+name);}  
+   
+    public static void main(String args[]){  
+    
+    	Constructors obj1 = new Constructors(101,"Abi");  
+    	Constructors obj2 = new Constructors(102,"Aryan");  
+    //calling method to display the values of object  
+    obj1.display();  
+    obj2.display();  
+   }  
+}  
