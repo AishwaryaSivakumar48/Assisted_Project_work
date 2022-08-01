@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+  <display-name>Practice-Project2</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+    <servlet>
+    <servlet-name>get_handler_demo</servlet-name>
+    <servlet-class>Get_handler</servlet-class>
+    
+    <servlet-name>Configure_servlet</servlet-name>
+    <servlet-class>configure_servlet.Practice_project2</servlet-class>
+    
+  </servlet>
+  <servlet>
+    <servlet-name>Post_handler_demo</servlet-name>
+    <servlet-class>Post_handler</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>get_handler_demo</servlet-name>
+    <url-pattern>/gethandlerdemo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Post_handler_demo</servlet-name>
+    <url-pattern>/posthandlerdemo</url-pattern>
+    
+    <servlet-name>Configure_servlet</servlet-name>
+    <url-pattern>/Practice_project2</url-pattern>
+    
+    
+    
+    
+  </servlet-mapping>
+  
+</web-app>
