@@ -37,6 +37,29 @@
        <servlet-name>Generic_demo</servlet-name>
        <url-pattern>/Generic_demo_show</url-pattern>
     </servlet-mapping>
+    
+    
+    
+    <servlet>
+    <servlet-name>InterfaceDemo</servlet-name>
+    <servlet-class>Servlet_interface_implementation</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>InterfaceDemo</servlet-name>
+    <url-pattern>/interface_demo</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+      <filter-name>filter_demo</filter-name>
+      <filter-class>Filter_implementation</filter-class>
+  </filter>
+    
+  <filter-mapping>
+      <filter-name>filter_demo</filter-name>
+      <url-pattern>/myfilterdemo</url-pattern>
+  </filter-mapping>
+    
   
 </web-app>
 
