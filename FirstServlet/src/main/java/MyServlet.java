@@ -1,4 +1,4 @@
-package get_and_post;
+
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class gethandler
+ * Servlet implementation class MyServlet
  */
-@WebServlet("/gethandler")
-public class gethandler extends HttpServlet {
+@WebServlet("/MyServlet")
+public class MyServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
     /**
      * Default constructor. 
      */
-    public gethandler() {
+    public MyServlet() {
         // TODO Auto-generated constructor stub
     }
 
