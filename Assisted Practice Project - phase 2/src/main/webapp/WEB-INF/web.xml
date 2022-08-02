@@ -105,6 +105,27 @@
 <url-pattern>/rewrite2</url-pattern>  
 </servlet-mapping>  
   
+  
+  
+  <servlet>  
+<servlet-name>hidden_field1</servlet-name>  
+<servlet-class>hidden_field_1</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>hidden_field1</servlet-name>  
+<url-pattern>/hidden_demo1</url-pattern>  
+</servlet-mapping>  
+  
+<servlet>  
+<servlet-name>hidden_field2</servlet-name>  
+<servlet-class>SecondServlet</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>hidden_field2</servlet-name>  
+<url-pattern>/hidden_demo2</url-pattern>  
+</servlet-mapping>  
 
 
     
