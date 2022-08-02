@@ -107,6 +107,8 @@
   
   
   
+  
+  
   <servlet>  
 <servlet-name>hidden_field1</servlet-name>  
 <servlet-class>hidden_field_1</servlet-class>  
@@ -128,8 +130,71 @@
 </servlet-mapping>  
 
 
+    <servlet>  
+<servlet-name>session_tracking_using_html1</servlet-name>  
+<servlet-class>session_html1</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>session_tracking_using_html1</servlet-name>  
+<url-pattern>/session_html1</url-pattern>  
+</servlet-mapping>  
+  
+<servlet>  
+<servlet-name>session_tracking_using_html2</servlet-name>  
+<servlet-class>session_html2</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>session_tracking_using_html2</servlet-name>  
+<url-pattern>/session_html2</url-pattern>  
+</servlet-mapping>  
+  
+  
+  
+  
+ <servlet>  
+    <description></description>  
+    <display-name>LoginServlet</display-name>  
+    <servlet-name>LoginServlet</servlet-name>  
+    <servlet-class>LoginServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>LoginServlet</servlet-name>  
+    <url-pattern>/LoginServlet</url-pattern>  
+  </servlet-mapping>  
+  <servlet>  
+    <description></description>  
+    <display-name>ProfileServlet</display-name>  
+    <servlet-name>ProfileServlet</servlet-name>  
+    <servlet-class>ProfileServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>ProfileServlet</servlet-name>  
+    <url-pattern>/ProfileServlet</url-pattern>  
+  </servlet-mapping>  
+  <servlet>  
+    <description></description>  
+    <display-name>LogoutServlet</display-name>  
+    <servlet-name>LogoutServlet</servlet-name>  
+    <servlet-class>LogoutServlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>LogoutServlet</servlet-name>  
+    <url-pattern>/LogoutServlet</url-pattern>  
+    </servlet-mapping>  
     
+  
+  
+  
+  <display-name>Login logout </display-name>
+  <welcome-file-list>
+    <welcome-file>LoginForm.html</welcome-file>
     
+  </welcome-file-list>
+  
+  
+  
   
 </web-app>
 
