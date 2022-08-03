@@ -33,7 +33,8 @@ public class Logout extends HttpServlet {
 		session.invalidate();
 		PrintWriter out=response.getWriter();  
 		out.print("You are successfully logged out!");  
-		 out.close();//delete session
+		 out.close();
+		//delete session
 		/*PrintWriter out=response.getWriter();
 		out.println(session.getAttribute("username"));*/
 	}
