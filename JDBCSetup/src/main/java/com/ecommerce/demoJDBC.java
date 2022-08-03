@@ -17,7 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.ecommerce.DBConnection;
 
 
-@WebServlet("/DemoJDBC")
+@WebServlet("/demoJDBC")
 public class demoJDBC extends HttpServlet {
         private static final long serialVersionUID = 1L;
    
