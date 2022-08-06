@@ -56,9 +56,12 @@ public class Login extends HttpServlet {
 			rd.forward(request, response);
 		}
 		else {
+			
+			response.setContentType("text/html");
 			out.println("Invalid Username or Password");
-			rd=request.getRequestDispatcher("LoginForm.html");
-			rd.include(request, response);
+			out.println("<br/><a href='LoginForm.html'>Login</a>");
+			//rd=request.getRequestDispatcher("LoginForm.html");
+		//	rd.include(request, response);
 		}
 	}
 }
