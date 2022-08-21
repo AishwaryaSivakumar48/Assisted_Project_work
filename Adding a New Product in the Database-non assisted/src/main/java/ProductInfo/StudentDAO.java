@@ -26,12 +26,12 @@ public class StudentDAO extends HttpServlet {
 		// put values in Object
 		Product p1 = new Product();
 		p1.setCost(cost);
-		p1.setName(name);
+		p1.setName(name);      
 
 		SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
 		Session session = sessionFactory.openSession();
 		session.beginTransaction();
-		int i = (Integer) session.save(p1);
+		int i = (Integer) session.save(p1);  
 		session.getTransaction().commit();
 
 		session.close();

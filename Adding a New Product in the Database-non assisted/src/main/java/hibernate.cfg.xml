@@ -32,7 +32,7 @@
 		<!--  <property name="hbm2ddl.auto">update</property> -->
 
      
-	<mapping class="ProductInfo.Product"></mapping>
+	  <mapping class="ProductInfo.Product"></mapping>
 
        
     </session-factory>
